@@ -1,0 +1,7 @@
+2018-10-12 13:42:00,937 - sample_model_api_logger - INFO - Serving requests
+2018-10-12 13:42:01,220 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2018-10-12 13:42:30,159 - sample_model_api_logger - INFO - received request
+2018-10-12 13:42:30,185 - sample_model_api_logger - INFO - remote_addr: 127.0.0.1, user_agent: PostmanRuntime/7.1.1
+2018-10-12 13:42:30,185 - sample_model_api_logger - DEBUG - [{"CRIM": 0.75026, "ZN": 0.0, "INDUS": 8.14, "CHAS": 0.0, "NOX": 0.538, "RM": 5.924, "AGE": 94.1, "DIS": 4.3996, "RAD": 4.0, "TAX": 307.0, "PTRATIO": 21.0, "B": 394.33, "LSTAT": 16.3}]
+2018-10-12 13:42:30,188 - sample_model_api_logger - INFO - Predicted median price (thousands): 16.869999999999997
+2018-10-12 13:42:30,189 - werkzeug - INFO - 127.0.0.1 - - [12/Oct/2018 13:42:30] "[37mPOST /predict HTTP/1.1[0m" 200 -
